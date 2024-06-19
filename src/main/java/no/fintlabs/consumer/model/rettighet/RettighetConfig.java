@@ -15,6 +15,6 @@ public class RettighetConfig extends ConsumerConfig<RettighetResource> {
 
     @Override
     protected String resourceName() {
-        return "identitet";
+        return "rettighet";
     }
 }
