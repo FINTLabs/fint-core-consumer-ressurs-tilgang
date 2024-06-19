@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: fint-core-consumer-ressurs-tilgang
+data:
+  TZ: 'Europe/Oslo'
+  JAVA_TOOLS_OPTIONS: '-XX:+ExitOnOutOfMemoryError -Xmx480M'
+  spring.webflux.base-path: '/ressurs/tilgang'
+  fint.consumer.domain: 'ressurs'
+  fint.consumer.package: 'tilgang'
