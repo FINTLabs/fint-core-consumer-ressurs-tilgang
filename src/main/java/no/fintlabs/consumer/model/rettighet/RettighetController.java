@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 @CrossOrigin
 @RestController
-@RequestMapping(name = "identitet", value = RestEndpoints.IDENTITET, produces = {FintRelationsMediaType.APPLICATION_HAL_JSON_VALUE, MediaType.APPLICATION_JSON_VALUE})
+@RequestMapping(name = "Rettighet", value = RestEndpoints.RETTIGHET, produces = {FintRelationsMediaType.APPLICATION_HAL_JSON_VALUE, MediaType.APPLICATION_JSON_VALUE})
 public class RettighetController extends ConsumerRestController<RettighetResource> {
 
     public RettighetController(RettighetService service, RettighetLinker linker, FintFilterService oDataFilterService) {
