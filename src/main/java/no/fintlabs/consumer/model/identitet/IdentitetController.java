@@ -24,6 +24,6 @@ public class IdentitetController extends ConsumerRestController<IdentitetResourc
 
     @PostConstruct
     private void registerIdentificators() {
-        super.registerIdenficatorHandler("systemId", IdentitetResource::getSystemId);
+        super.registerIdenficatorHandler("systemid", IdentitetResource::getSystemId);
     }
 }

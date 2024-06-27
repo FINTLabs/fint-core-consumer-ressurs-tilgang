@@ -25,6 +25,6 @@ public class RettighetController extends ConsumerRestController<RettighetResourc
 
     @PostConstruct
     private void registerIdentificators() {
-        super.registerIdenficatorHandler("systemId", RettighetResource::getSystemId);
+        super.registerIdenficatorHandler("systemid", RettighetResource::getSystemId);
     }
 }
